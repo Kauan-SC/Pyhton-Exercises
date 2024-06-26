@@ -1,4 +1,5 @@
 # Entrace solicitacion
+
 Name = str(input('Write a name: '))
 
 # Name verification
