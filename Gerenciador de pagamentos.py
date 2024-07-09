@@ -28,7 +28,7 @@ try:
         elif Pagamento == 4:
             Valor_dividido = Preco + (Preco * 0.2)
             print(('=' * 10) + 'FORMAS DE DIVISÃO' + ('=' * 10))
-            print(f'Dividido em 2x: {Valor_dividido / 2:.2f}\n'
+            print(f'Dividido em 2x: {Preco / 2:.2f}\n'
                   f'Dividido em 3x: {Valor_dividido / 3:.2f}\n'
                   f'Dividido em 4x: {Valor_dividido / 4:.2f}\n'
                   f'Dividido em 5x: {Valor_dividido / 5:.2f}\n'
@@ -42,7 +42,7 @@ try:
             try:
                 Forma = int(Forma)
                 if Forma == 2:
-                    print(f'O valor a ser pago é de R${Valor_dividido / 2:.2f} em {Forma}x vezes!!')
+                    print(f'O valor a ser pago é de R${Preco / 2:.2f} em {Forma}x vezes!!')
                 elif 3 <= Forma <= 10:
                     print(f'O valor a ser pago é de R${Valor_dividido / Forma:.2f} em {Forma}x vezes')
                 else:
